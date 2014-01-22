@@ -10,5 +10,10 @@
   <%= @user.Website_Address %>
 </p>
 
+<p>
+  <strong>Ratings:</strong>
+  <%= @user.ratings %>
+</p>
+
 <%= link_to 'Edit Website', edit_user_path(@user) %> |
 <%= link_to 'Back', users_path %>
