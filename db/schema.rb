@@ -11,13 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140122093509) do
+ActiveRecord::Schema.define(version: 20140122144244) do
 
   create_table "users", force: true do |t|
     t.string   "Website_Name"
     t.string   "Website_Address"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "rating"
   end
 
 end
