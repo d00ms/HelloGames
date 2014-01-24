@@ -3,9 +3,9 @@
 <table>
   <thead>
     <tr>
-      <th>Website name</th>
-      <th>Website address</th>
-      <th></th>
+      <th>Website Name</th>
+      <th>Website Address</th>
+      <th>Ratings</th>
       <th></th>
       <th></th>
     </tr>
@@ -16,9 +16,10 @@
       <tr>
         <td><%= user.Website_Name %></td>
         <td><%= user.Website_Address %></td>
+        <td><%= user.rating %></td>
         <td><%= link_to 'Show', user %></td>
         <td><%= link_to 'Edit', edit_user_path(user) %></td>
-        <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Uh,oh! Are you sure?' } %></td>
+        <td><%= link_to 'Delete', user, method: :delete, data: { confirm: 'Uh,oh! Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
