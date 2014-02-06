@@ -4,6 +4,7 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
+    flash[:notice] = t(:Welcome_to_HelloGames_please_share_rate_and_comments)
     @users = User.all
   end
 

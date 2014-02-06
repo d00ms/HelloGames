@@ -20,4 +20,5 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  Top_Games_Website_Lists: Top Games Website Lists
+  Welcome_to_HelloGames_please_share_rate_and_comments: Welcome to HelloGames please share rate and comments!
